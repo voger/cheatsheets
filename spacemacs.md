@@ -38,7 +38,7 @@ Command                                      |Description
 **C-c h**                                    | Select all buffer
 **g g V G**                                  | (evil) Select all buffer
 **g g = G**                                  | (evil) Indent all buffer
-**Spc j = **                                 | Indent all buffer
+**Spc j =**                                 | Indent all buffer
 
 
 ## Useful commands
