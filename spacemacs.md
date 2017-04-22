@@ -55,3 +55,10 @@ Command      |Description
 **Spc f j**  | Jump to file
 **d**        | Mark file for deletion
 **x**        | Execute deletion
+
+
+## Magit
+Command      |Description
+-------------|---------------------------
+**Spc g s**  | Open status buffer
+**C-c C-c**  | Commit after comit message
