@@ -45,7 +45,7 @@ Command                                      |Description
 ## Useful commands
 Command      |Description
 -------------|---------------------------
-**M-m a s t**| Popup ansi terminal in other window
+**Spc a s t**| Popup ansi terminal in other window
 **Spc f t**  | Neotree toggle
 **Spc f T**  | Neotree show file
 
