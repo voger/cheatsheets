@@ -56,6 +56,8 @@ Command      |Description
 **Spc f j**  | Jump to file
 **d**        | Mark file for deletion
 **x**        | Execute deletion
+**C-x C-q**  | While in dired toggle wdired mode to edit the file name live
+**C-c C-c**  | While in wdired mode to exit in normal dired mode
 
 
 ## Magit
