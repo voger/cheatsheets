@@ -14,18 +14,18 @@ Command         | Description
 
 
 ## Buffers/Windows
-Command      | Description
--------------|---------------------------------------------------------
-**Spc f f**  | Find/create file. Also creates necessary parent folders
-**Spc p f**  | Find/create file in the current project. Also creates necessary parent folders
-**Spc f s**  | Save file
-**:w Ret**   | Save file
-**Spc b b**  | Find open buffer
-**C-<tab>**  | Next buffer/Cycle (custom)
-**C-\`**     | Find open buffer (Same as **Spc b b**) (custom)
-**C-x 4 f**  | Find file and open it in other window
-**C-x 4 b**  | Open buffer in other window
-**Spc w d**  | Close current window
+Command            | Description
+-------------------|---------------------------------------------------------
+**Spc f f**        | Find/create file. Also creates necessary parent folders
+**Spc p f**        | Find/create file in the current project. Also creates necessary parent folders
+**Spc f s**        | Save file
+**:w Ret**         | Save file
+**Spc b b**        | Find open buffer
+**C-&lt;tab&gt;**  | Next buffer/Cycle (custom)
+**C-\`**           | Find open buffer (Same as **Spc b b**) (custom)
+**C-x 4 f**        | Find file and open it in other window
+**C-x 4 b**        | Open buffer in other window
+**Spc w d**        | Close current window
 
 
 ## Editing text
