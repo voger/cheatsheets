@@ -22,7 +22,7 @@ Command            | Description
 **:w Ret**         | Save file
 **Spc b b**        | Find open buffer
 **C-&lt;tab&gt;**  | Next buffer/Cycle (custom)
-**C-\`**           | Find open buffer (Same as **Spc b b**) (custom)
+**C-\`**           | Find file (custom)
 **C-x 4 f**        | Find file and open it in other window
 **C-x 4 b**        | Open buffer in other window
 **Spc w d**        | Close current window
