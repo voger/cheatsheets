@@ -33,8 +33,9 @@ Command                                      |Description
 ---------------------------------------------|---------------------------
 **ysiw**                                     | (evil) Surround word with text (parenthesis, tags etc.)
 **ys$**                                      | (evil) Surround to the end of line with text (parenthesis, tags etc.)
-**vs)**                                      | (evil) Select with visual and surround with parenthesis. Also works with braces, tags etc.
+**v{motion}s)**                                      | (evil) Select with visual and surround with parenthesis. Also works with braces, tags etc.
 **cs]}**                                     | (evil) Change surround from **]** to **}**
+**v{motion}sf**                                      | (evil) surround with function.
 **"_dd**                                     | (evil) Delete line without affecting yank
 **:%s/&lt;old text&gt;/&lt;new text&gt;**    | Replace old text with new text
 **:%s/&lt;old text&gt;/&lt;new text&gt;/g**  | Replace old text with new text globaly in the buffer
