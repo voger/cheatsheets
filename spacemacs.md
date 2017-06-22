@@ -17,15 +17,16 @@ Command         | Description
 Command            | Description
 -------------------|---------------------------------------------------------
 **Spc f f**        | Find/create file. Also creates necessary parent folders
+**C-\`**           | Find file (custom)
 **Spc p f**        | Find/create file in the current project. Also creates necessary parent folders
 **Spc f s**        | Save file
 **:w Ret**         | Save file
 **Spc b b**        | Find open buffer
 **C-&lt;tab&gt;**  | Find open buffer (custom)
-**C-\`**           | Find file (custom)
 **C-x 4 f**        | Find file and open it in other window
 **C-x 4 b**        | Open buffer in other window
 **Spc w d**        | Close current window
+**Spc f E**        | Edit current buffer as sudo (elevated privileges)
 
 
 ## Editing text
@@ -57,6 +58,8 @@ Command      |Description
 ## Dired
 Command      |Description
 -------------|---------------------------
+**Spc a d**  | Open dired
+**Spc p D**  | Open dired in project
 **Spc f j**  | Jump to file
 **d**        | Mark file for deletion
 **x**        | Execute deletion
