@@ -54,6 +54,11 @@ Command      |Description
 **Spc f t**  | Neotree toggle
 **Spc f T**  | Neotree show file
 
+## Alchemist
+Command      |Description
+---------------|---------------------------
+**C-c a m l**  |Rerun the last mix task which was run by alchemist.
+**C-c a n S**  |Run phoenix server
 
 ## Dired
 Command      |Description
