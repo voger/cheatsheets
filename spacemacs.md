@@ -51,6 +51,7 @@ Command                                      |Description
 Command      |Description
 -------------|---------------------------
 **Spc a s t**| Popup ansi terminal in other window
+**Spc p t**  | Notree find project root
 **Spc f t**  | Neotree toggle
 **Spc f T**  | Neotree show file
 
