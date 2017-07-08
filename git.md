@@ -35,7 +35,7 @@ Command                        | Description
 -------------------------------|----------------
 **git add .**                  | **Add** everything to the stagging area
 **git commit -m "New message"**| **Commit** stagging area
-**git -am "New message"**      | **Add** and **commit**. *Shortcut*
+**git commit -am "New message"**      | **Add** and **commit**. *Shortcut*
 
 
 ## Clone
