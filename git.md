@@ -22,19 +22,19 @@ Command                                 | Description
 
 ## Log
 
-Command | Description
----------|-----------------
-**git log --oneline**|  Condensed view of log
+Command                                                              | Description
+---------------------------------------------------------------------|-----------------
+**git log --oneline**                                                |  Condensed view of log
 **git log --graph --decorate --pretty=oneline --all --abbrev-commit**|**Pretty print** the development tree
 
 
 
 ## Commit
 
-Command                        | Description
--------------------------------|----------------
-**git add .**                  | **Add** everything to the stagging area
-**git commit -m "New message"**| **Commit** stagging area
+Command                               | Description
+--------------------------------------|----------------
+**git add .**                         | **Add** everything to the stagging area
+**git commit -m "New message"**       | **Commit** stagging area
 **git commit -am "New message"**      | **Add** and **commit**. *Shortcut*
 
 
@@ -42,16 +42,16 @@ Command                        | Description
 
 1. When cloning a repo only the active branch is cloned. The other branches can be seen by using `git branch --all` in the clone. They appear with the prefix `remotes/origin/<branch_name>`
 
-Command                        | Description
--------------------------------|----------------
-**git clone <source\> <target\>**  | **Clone** source by creating target. Source can be a local repo folder or remote repo.
+Command                                | Description
+---------------------------------------|----------------
+**git clone <source\> <target\>**      | **Clone** source by creating target. Source can be a local repo folder or remote repo.
 
 
 ## Remotes
 
-Command                                  | Description
------------------------------------------|----------------
-**git remote -v show**                   | Shows the **remote address** (folder, url or whatever)
-**git remote rename <old_name> <new_name>**| **Rename** remote. E.g. origin to upstream
-**git remote add <name\> <remote address\>** | **Add** extra remote
+Command                                                                  | Description
+-------------------------------------------------------------------------|----------------
+**git remote -v show**                                                   | Shows the **remote address** (folder, url or whatever)
+**git remote rename <old_name> <new_name>**                              | **Rename** remote. E.g. origin to upstream
+**git remote add <name\> <remote address\>**                             | **Add** extra remote
 **git remote set-url origin git@github.com:username/your-repository.git**| **Change** remote address
