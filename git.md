@@ -8,13 +8,13 @@ My own git cheatsheet and some guides.
 
 Command                                          | Description
 -------------------------------------------------|------------------------------------
- **git branch <new_feature>**                    |**Create** new branch from current branch
- **git branch <fixing_readme> cef45ff**          |Create new branch from an **arbitrary commit**
- **git branch <fixing_readme> <other_branch>**   |Create new branch from **another branch**
- **git checkout <new_feature>**                  |**Checkout** new branch
- **git checkout -b <new_feature>**               |**Create** and **checkout** new branch
- **git branch -d <new_feature>**                 |**Delete** branch new_feature
- **git branch -D <new_feature>**                 |**Delete** branch new_feature even if it is not merged (**--force**)
+**git branch <new_feature>**                     |**Create** new branch from current branch
+**git branch <fixing_readme> cef45ff**           |Create new branch from an **arbitrary commit**
+**git branch <fixing_readme> <other_branch>**    |Create new branch from **another branch**
+**git checkout <new_feature>**                   |**Checkout** new branch
+**git checkout -b <new_feature>**                |**Create** and **checkout** new branch
+**git branch -d <new_feature>**                  |**Delete** branch new_feature
+**git branch -D <new_feature>**                  |**Delete** branch new_feature even if it is not merged (**--force**)
 **git stash**                                    |**Stash** the work in progress in current branch
 **git stash list**                               |See a list of stashed WIP's
 **git stash pop**                                |**Pop** stashed WIP
@@ -69,3 +69,11 @@ Command                                                                  | Descr
 **git fetch**                                                            | **Fetch** change from remote but don't merge
 **git diff HEAD FETCH_HEAD**                                             | **see the diff** between HEAD and ***remote* HEAD
 **git merge HEAD FETCH_HEAD**                                            | **Merge** HEAD with FETCH_HEAD
+
+## Reset
+Command                                | Description
+---------------------------------------|----------------
+**git reset HEAD --hard**              | Reset everything to the HEAD
+**git clean -f**                       | Remove untracked **files**
+**git clean -fd**                      | Remove untracked **files** and **directories**
+**git clean -fdx**                     | Remove **ignored** and **untracked** **files** and **directories**
