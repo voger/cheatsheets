@@ -77,3 +77,4 @@ Command                                | Description
 **git clean -f**                       | Remove untracked **files**
 **git clean -fd**                      | Remove untracked **files** and **directories**
 **git clean -fdx**                     | Remove **ignored** and **untracked** **files** and **directories**
+**git reset -- <file>** && **git checkout <file>**| Restore deleted file
