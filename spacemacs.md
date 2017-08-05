@@ -48,14 +48,15 @@ Command                                      |Description
 
 
 ## Useful commands
-Command      |Description
--------------|---------------------------
-**Spc a s t**| Popup ansi terminal in other window
-**Spc p t**  | Notree find project root
-**Spc f t**  | Neotree toggle
-**Spc f T**  | Neotree show file
-**, c P**    | Preview markdown (vmd-mode)
-**Spc f g**  | rgrep. Search in directory
+Command                          |Description
+---------------------------------|---------------------------
+**Spc a s t**                    | Popup ansi terminal in other window
+**Spc p t**                      | Notree find project root
+**Spc f t**                      | Neotree toggle
+**Spc f T**                      | Neotree show file
+**, c P**                        | Preview markdown (vmd-mode)
+**Spc f g**                      | rgrep. Search in directory
+**Spc Spc comint-clear-buffer**  | Clear contents of current buffer
 
 ## Alchemist
 Command      |Description
