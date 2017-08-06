@@ -34,9 +34,9 @@ Command                                      |Description
 ---------------------------------------------|---------------------------
 **ysiw**                                     | (evil) Surround word with text (parenthesis, tags etc.)
 **ys$**                                      | (evil) Surround to the end of line with text (parenthesis, tags etc.)
-**v{motion}s)**                                      | (evil) Select with visual and surround with parenthesis. Also works with braces, tags etc.
+**v{motion}s)**                              | (evil) Select with visual and surround with parenthesis. Also works with braces, tags etc.
 **cs]}**                                     | (evil) Change surround from **]** to **}**
-**v{motion}sf**                                      | (evil) surround with function.
+**v{motion}sf**                              | (evil) surround with function.
 **"_dd**                                     | (evil) Delete line without affecting yank
 **:%s/&lt;old text&gt;/&lt;new text&gt;**    | Replace old text with new text
 **:%s/&lt;old text&gt;/&lt;new text&gt;/g**  | Replace old text with new text globaly in the buffer
@@ -48,15 +48,16 @@ Command                                      |Description
 
 
 ## Useful commands
-Command                          |Description
----------------------------------|---------------------------
-**Spc a s t**                    | Popup ansi terminal in other window
-**Spc p t**                      | Notree find project root
-**Spc f t**                      | Neotree toggle
-**Spc f T**                      | Neotree show file
-**, c P**                        | Preview markdown (vmd-mode)
-**Spc f g**                      | rgrep. Search in directory
-**Spc Spc comint-clear-buffer**  | Clear contents of current buffer
+Command                              |Description
+-------------------------------------|---------------------------
+**Spc a s t**                        | Popup ansi terminal in other window
+**Spc p t**                          | Neotree find project root
+**Spc f t**                          | Neotree toggle
+**Spc f T**                          | Neotree show file
+**, c P**                            | Preview markdown (vmd-mode)
+**Spc f g**                          | rgrep. Search in directory
+**Spc Spc comint-clear-buffer**      | Clear contents of current buffer
+**Spc Spc buffer-menu-other-window** | Show a list of buffers in another window so we can manipulate them
 
 ## Alchemist
 Command      |Description
