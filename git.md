@@ -51,7 +51,7 @@ Command                                | Description
 Command                             | Description
 ------------------------------------|----------------
 **git rebase master**               |**Rebase** current branch to the top of the master
-**git rebase --interactive master** |*Squash** commits inteactively.
+**git rebase --interactive master** |**Squash** commits inteactively.
 
 ## Remotes
 
