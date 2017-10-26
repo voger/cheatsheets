@@ -48,10 +48,10 @@ Command                                | Description
 **git clone <source\> <target\>**      | **Clone** source by creating target. Source can be a local repo folder or remote repo.
 
 ## Rebase
-Command                           | Description
-----------------------------------|----------------
-**git rebase master**             |**Rebase** current branch to the top of the master
-**git rebase --interactive master |*Squash** commits inteactively.
+Command                             | Description
+------------------------------------|----------------
+**git rebase master**               |**Rebase** current branch to the top of the master
+**git rebase --interactive master** |*Squash** commits inteactively.
 
 ## Remotes
 
