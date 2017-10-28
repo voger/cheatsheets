@@ -56,7 +56,7 @@ Key           | Description
 **&lt;Prefix&gt; c**    | New window
 **&lt;Prefix&gt; ,**    | Rename window
 **&lt;Prefix&gt; &**    | Kill window
-**&lt;Prefix&gt; l**   | Go to last window
+**&lt;Prefix&gt; l**    | Go to last window
 **&lt;Prefix&gt; 1..9** | Go to window number
 **&lt;Prefix&gt; p**    | Go to previous window
 **&lt;Prefix&gt; n**    | Go to next window
@@ -74,6 +74,7 @@ Key                           | Description
 **&lt;Prefix&gt; (**          | Switch to previous session
 **&lt;Prefix&gt; )**          | Switch to next session
 **:new-session -s "Another"** | Create and name a new session
+**:kill-session -t "Another"**| Kill session
 
 Command                                 | Description
 ----------------------------------------|------------
