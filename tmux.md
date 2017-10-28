@@ -38,8 +38,11 @@ Key                                         | Description
 **&lt;Prefix&gt; up, down, left, right**    | Move through panes
 **&lt;Prefix&gt;-(up, down, left, right)**  | Resize pane
 **&lt;Prefix&gt;-(H, J, L, K)**             | Resize pane. Custom to my setup
+**&lt;Prefix&gt; q **                       | Identify panes
 **&lt;Prefix&gt; q 1..9**                   | Go to pane with number
 **&lt;Prefix&gt; z**                        | Zoom in/out pane
+**&lt;Prefix&gt; {**                        | Cycle **left position** of the pane in the layout
+**&lt;Prefix&gt; }**                        | Cycle **right position** of the pane in the layout
 **&lt;Prefix&gt; Space**                    | Cycle trough pane layouts
 **&lt;Prefix&gt; !**                        | Break the pane (make it it's own window)
 
