@@ -23,6 +23,36 @@ Command         | Description
 **m{a-zA-Z}**	| Mark current cursor location
 **`{a-zA-Z}**	| Go to mark location
 
+## Ex commands
+
+Command                                            | Description
+---------------                                    | ----------------------------------------
+**:6t.**                                           | Copy line 6 to just below the current line
+**:t6**                                            | Copy the current line to just below line 6
+**:t.**                                            | Duplicate the current line (similar to Normal mode yyp )
+**:t$**                                            | Copy the current line to the end of the file
+**:'<,'>t0**                                       | Copy the visually selected lines to the start of the file
+**:[range]delete [x]**                             | Delete specified lines [into register x]
+**:[range]yank [x]**                               | Yank specified lines [into register x]
+**:[line]put [x]**                                 | Put the text from register x after the specified line
+**:[range]copy {address}**                         | Copy the specified lines to below the line specified by {address}
+**:[range]move {address}**                         | Move the specified lines to below the line specified by {address}
+**:[range]join**                                   | Join the specified lines
+**:[range]normal {commands}**                      | Execute Normal mode {commands} on each speci- fied line
+**:[range]substitute/{pattern}/{string}/[flags]** | Replace occurrences of {pattern} with {string} on each specified line
+**:[range]global/{pattern}/[cmd]**                 | Execute the Ex command [cmd] on all specified lines where the {pattern} matches
+
+## Visual
+
+Command         | Description
+--------        | --------
+**v**           | Enable character-wise Visual mode
+**V**           | Enable line-wise Visual mode
+**&lt;C-v&gt;** | Enable block-wise Visual mode
+**gv**          | Reselect the last visual selection
+**o**           | Go to other end of highlighted text
+**S}**          | Surround selection with } or whatever else
+
 
 ## Buffer and file commands
 
@@ -50,7 +80,20 @@ Command                               | Description
 **:sp[lit] {file}**                   | Split horizontally, loading file
 **:vsp[lit] {file}**                  | Split vertically, loading file
 **&lt;[N]Ctrl-w&gt;_**                | Set active window height to [N] rows
-**&lt;[N]Ctrl-w&gt;|**                | Set active window width to [N] colimns
+**&lt;[N]Ctrl-w&gt;&#124;**                | Set active window width to [N] columns
+
+## Tabs
+
+Command                       | Description
+---------------               | ----------------------------------------
+**:tabe[dit] {filename}**     | New tab with filename
+**&lt;Ctrl-w&gt;T**           | Move current window into new tab
+**:tabc[lose]**               | Close the current tab page and all of its windows
+**:tabo[nly]**                | Keep the active tab page, closing all others
+**:tabn[ext] {N}**, **{N}gt** | Switch to tab page number {N}. If {N} ommited proceed to next
+**:tabn[ext]**, **gt**        | Switch to the next tab page
+**:tabp[revious]**, **gT**    | Switch to the previous tab page
+**:tabmove [N]**              | Rearrange tabs
 
 
 ## Motions
@@ -60,7 +103,11 @@ Motion          | Description
 **;**           | Repeat **f**, **F**, **t**, **T** forward
 **,**           | Repeat **f**, **F**, **t**, **T** backward
 
-
+## Surround
+Command              | Description
+-------------------- | --------------------
+**ys{count}l]**      | Surround {count} chars with ], }, ), t or whatever
+**ys{object}lf**     | Surround {objext} with function
 
 ## Markdown
 
@@ -68,3 +115,12 @@ Command            | Description
 -----------------  | --------
 **:Tabularize**    | Convert to table
 **&lt;Ctrl&gt;-m** | Preview markdown
+
+## Searching
+
+Command                                       | Description
+--------------------------------------------- | --------------------
+**:Ack [options] {pattern} [{directories}]**  | Search
+**\bs**                                       | BufExplorerHorizontalSplit
+**\bv**                                       | BufExplorerVerticalSplit
+**\bt**                                       | ToggleBufExplorer
