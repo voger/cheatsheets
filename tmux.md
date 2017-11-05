@@ -1,5 +1,5 @@
-* **`<Prefix> :list-keys`** or **`<Prefix> ?`** shows a list with key bindings
-* **`:list-commands`** lists available commands
+* **&lt;Prefix&gt; :list-keys** or **<Prefix> ?** shows a list with key bindings
+* **:list-commands** lists available commands
 * Commands can be run either in `command-mode` or in shell through `tmux command options`
 
 
