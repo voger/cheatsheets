@@ -43,6 +43,7 @@ Command                                           | Description
 **:[range]normal {commands}**                     | Execute Normal mode {commands} on each speci- fied line
 **:[range]substitute/{pattern}/{string}/[flags]** | Replace occurrences of {pattern} with {string} on each specified line
 **:[range]global/{pattern}/[cmd]**                | Execute the Ex command [cmd] on all specified lines where the {pattern} matches
+**:redir @+ &#124; messages &#124; redir END**    | Copy Ex command output to clipboard. See **:h redir** for files
 
 ## Visual
 
