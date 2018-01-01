@@ -27,23 +27,24 @@ Command              | Description
 
 ## Ex commands
 
-Command                                           | Description
---------------------------------------------------|---------------------------------------------------------------------------------|
-**:6t.**                                          | Copy line 6 to just below the current line
-**:t6**                                           | Copy the current line to just below line 6
-**:t.**                                           | Duplicate the current line (similar to Normal mode yyp )
-**:t$**                                           | Copy the current line to the end of the file
-**:'<,'>t0**                                      | Copy the visually selected lines to the start of the file
-**:[range]delete [x]**                            | Delete specified lines [into register x]
-**:[range]yank [x]**                              | Yank specified lines [into register x]
-**:[line]put [x]**                                | Put the text from register x after the specified line
-**:[range]copy {address}**                        | Copy the specified lines to below the line specified by {address}
-**:[range]move {address}**                        | Move the specified lines to below the line specified by {address}
-**:[range]join**                                  | Join the specified lines
-**:[range]normal {commands}**                     | Execute Normal mode {commands} on each speci- fied line
-**:[range]substitute/{pattern}/{string}/[flags]** | Replace occurrences of {pattern} with {string} on each specified line
-**:[range]global/{pattern}/[cmd]**                | Execute the Ex command [cmd] on all specified lines where the {pattern} matches
-**:redir @+ &#124; messages &#124; redir END**    | Copy Ex command output to clipboard. See **:h redir** for files
+Command                                                                             | Description
+------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+**:6t.**                                                                            | Copy line 6 to just below the current line
+**:t6**                                                                             | Copy the current line to just below line 6
+**:t.**                                                                             | Duplicate the current line (similar to Normal mode yyp )
+**:t$**                                                                             | Copy the current line to the end of the file
+**:'<,'>t0**                                                                        | Copy the visually selected lines to the start of the file
+**:[range]delete [x]**                                                              | Delete specified lines [into register x]
+**:[range]yank [x]**                                                                | Yank specified lines [into register x]
+**:[line]put [x]**                                                                  | Put the text from register x after the specified line
+**:[range]copy {address}**                                                          | Copy the specified lines to below the line specified by {address}
+**:[range]move {address}**                                                          | Move the specified lines to below the line specified by {address}
+**:[range]join**                                                                    | Join the specified lines
+**:[range]normal {commands}**                                                       | Execute Normal mode {commands} on each speci- fied line
+**:[range]substitute/{pattern}/{string}/[flags]**                                   | Replace occurrences of {pattern} with {string} on each specified line
+**:[range]global/{pattern}/[cmd]**                                                  | Execute the Ex command [cmd] on all specified lines where the {pattern} matches
+**:redir @+ &#124; messages &#124; redir END**                                      | Copy Ex command output to clipboard. See **:h redir** for files
+**:redir @a&lt;CR&gt;**<br /> **:set all&lt;CR&gt;**<br /> **:redir END&lt;CR&gt;** | Alternate **redir** usage
 
 ## Visual
 
@@ -69,6 +70,8 @@ Command                                        | Description
 **:e %%**                                      | Expands files reliative path
 **:!mkdir -p %:h**                             | Create directory structure of the current file when nonexistent
 **:w !sudo tee % > /dev/null**                 | Write file with super user permissions
+**:SudoWrite**                                 | Write file with super user permissions
+**:w|%bd|e#**                                  | Close all buffers except current 
 
 ## Windows
 
