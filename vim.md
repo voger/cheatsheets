@@ -71,7 +71,7 @@ Command                                        | Description
 **:!mkdir -p %:h**                             | Create directory structure of the current file when nonexistent
 **:w !sudo tee % > /dev/null**                 | Write file with super user permissions
 **:SudoWrite**                                 | Write file with super user permissions
-**:w|%bd|e#**                                  | Close all buffers except current 
+**:w\|%bd\|e#**                                  | Close all buffers except current 
 
 ## Windows
 
