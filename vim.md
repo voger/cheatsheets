@@ -126,8 +126,15 @@ Command            | Description
 ## Searching
 
 Command                                       | Description
---------------------------------------------- | --------------------
+--------------------------------------------- | --------------------|
 **:Ack [options] {pattern} [{directories}]**  | Search
 **\bs**                                       | BufExplorerHorizontalSplit
 **\bv**                                       | BufExplorerVerticalSplit
 **\bt**                                       | ToggleBufExplorer
+
+## Misc
+
+Command                                       | Description
+--------------------------------------------- | --------------------        |
+**%!mix format -**                            | Format elixir related files
+
