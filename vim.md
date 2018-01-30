@@ -64,7 +64,6 @@ Command                                        | Description
 -----------------------------------------------|-----------------------------------------------------------------|
 **\bv**, **\bs**                               | Bufexplorer vertical/horizontal split
 **\bd**, **\bu**, **\bu**                      | Delete, unload, wipe buffer without closing the window
-**&lt;Tab&gt;**, **&lt;Shift&gt;-&lt;Tab&gt;** | Cycle through buffers
 **&lt;Ctrl&gt;-n**                             | Toggle NerdTree
 **&lt;Ctrl&gt;-p**                             | Toggle Ctrl-p
 **:e %%**                                      | Expands files reliative path
@@ -76,9 +75,10 @@ Command                                        | Description
 ## Windows
 
 Command                               | Description
---------------------------------------|--------------------------------------
+--------------------------------------|----------------------------------------|
 **&lt;Ctrl-w&gt;s**                   | Split window horizontally
 **&lt;Ctrl-w&gt;v**                   | Split window vertically
+**:only**                             | Close other windows
 **&lt;Ctrl-w&gt;w**                   | Cycle open windows
 **&lt;Ctrl-w&gt;h, j, k, l**          | Move between windows
 **&lt;Ctrl-w&gt;H, J, K, L, R, r, x** | Move windows around
