@@ -46,6 +46,7 @@ Key                                         | Description
 **&lt;Prefix&gt; }**                        | Cycle **right position** of the pane in the layout
 **&lt;Prefix&gt; Space**                    | Cycle trough pane layouts
 **&lt;Prefix&gt; !**                        | Break the pane (make it it's own window)
+**&lt;Prefix&gt; :join-pane -t :&lt;win_num:&gt;** | move pane to another window
 
 
 
