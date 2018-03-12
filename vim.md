@@ -75,7 +75,7 @@ Command                        | Description
 ## Windows
 
 Command                         | Description
---------------------------------|-------------------------------------------------------------------------------------|
+--------------------------------|--------------------------------------------------------------------------------------|
 **Ctrl-ws**                     | Split window horizontally
 **Ctrl-wv**                     | Split window vertically
 **:only**                       | Close other windows
@@ -90,6 +90,7 @@ Command                         | Description
 **[N]Ctrl-w &#124;**            | **Resize** Set active window width to [N] columns
 **Ctrl-w [N] +** or **-**       | **Resize** Increase or decrease active window height by one or optionaly **N** rows
 **Ctrl-w [N] &lt;** or **&gt;** | **Resize** Increase or decrease active window width by one or optinaly **N** columns
+**Ctrl-w =**                    | **Resize** Set windows same size
 
 ## Tabs
 
@@ -107,17 +108,17 @@ Command                       | Description
 
 ## Motions
 
-Motion          | Description
---------------- | ----------------------------------------
-**;**           | Repeat **f**, **F**, **t**, **T** forward
-**,**           | Repeat **f**, **F**, **t**, **T** backward
+Motion | Description
+-------|--------------------------------------------|
+**;**  | Repeat **f**, **F**, **t**, **T** forward
+**,**  | Repeat **f**, **F**, **t**, **T** backward
 
 ## Surround
-Command              | Description
--------------------- | --------------------
-**ys{count}l]**      | Surround {count} chars with ], }, ), t or whatever
-**ys{object}lf**     | Surround {objext} with function
-**S}**     | Surround selection with } or whatever else
+Command          | Description
+-----------------|----------------------------------------------------|
+**ys{count}l]**  | Surround {count} chars with ], }, ), t or whatever
+**ys{object}lf** | Surround {objext} with function
+**S}**           | Surround selection with } or whatever else
 
 ## Markdown
 
