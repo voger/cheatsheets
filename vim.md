@@ -70,7 +70,7 @@ Command                                        | Description
 **:!mkdir -p %:h**                             | Create directory structure of the current file when nonexistent
 **:w !sudo tee % > /dev/null**                 | Write file with super user permissions
 **:SudoWrite**                                 | Write file with super user permissions
-**:w\|%bd\|e#**                                  | Close all buffers except current 
+**:w\|%bd\|e#**                                | Close all buffers except current 
 
 ## Windows
 
@@ -86,8 +86,8 @@ Command                               | Description
 **&lt;Ctrl-w&gt;o**                   | Close other windows
 **:sp[lit] {file}**                   | Split horizontally, loading file
 **:vsp[lit] {file}**                  | Split vertically, loading file
-**&lt;[N]Ctrl-w&gt;_**                | Set active window height to [N] rows
-**&lt;[N]Ctrl-w&gt;&#124;**           | Set active window width to [N] columns
+**&lt;[N]Ctrl-w&gt;_**                | **Resize** Set active window height to [N] rows
+**&lt;[N]Ctrl-w&gt;&#124;**           | **Resize** Set active window width to [N] columns
 
 ## Tabs
 
