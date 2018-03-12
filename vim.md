@@ -44,57 +44,59 @@ Command                                                                         
 **:[range]substitute/{pattern}/{string}/[flags]**                                   | Replace occurrences of {pattern} with {string} on each specified line
 **:[range]global/{pattern}/[cmd]**                                                  | Execute the Ex command [cmd] on all specified lines where the {pattern} matches
 **:redir @+ &#124; messages &#124; redir END**                                      | Copy Ex command output to clipboard. See **:h redir** for files
-**:redir @a&lt;CR&gt;**<br /> **:set all&lt;CR&gt;**<br /> **:redir END&lt;CR&gt;** | Alternate **redir** usage
+**:redir @aCR**<br /> **:set allCR**<br /> **:redir ENDCR** | Alternate **redir** usage
 
 ## Visual
 
-Command         | Description
---------        | --------
-**v**           | Enable character-wise Visual mode
-**V**           | Enable line-wise Visual mode
-**&lt;C-v&gt;** | Enable block-wise Visual mode
-**gv**          | Reselect the last visual selection
-**o**           | Go to other end of highlighted text
-**S}**          | Surround selection with } or whatever else
+Command    | Description
+-----------|--------------------------------------------|
+**v**      | Enable character-wise Visual mode
+**V**      | Enable line-wise Visual mode
+**Ctrl-v** | Enable block-wise Visual mode
+**gv**     | Reselect the last visual selection
+**o**      | Go to other end of highlighted text
+**S}**     | Surround selection with } or whatever else
 
 
 ## Buffer and file commands
 
-Command                                        | Description
------------------------------------------------|-----------------------------------------------------------------|
-**\bv**, **\bs**                               | Bufexplorer vertical/horizontal split
-**\bd**, **\bu**, **\bu**                      | Delete, unload, wipe buffer without closing the window
-**&lt;Ctrl&gt;-n**                             | Toggle NerdTree
-**&lt;Ctrl&gt;-p**                             | Toggle Ctrl-p
-**:e %%**                                      | Expands files reliative path
-**:!mkdir -p %:h**                             | Create directory structure of the current file when nonexistent
-**:w !sudo tee % > /dev/null**                 | Write file with super user permissions
-**:SudoWrite**                                 | Write file with super user permissions
-**:w\|%bd\|e#**                                | Close all buffers except current 
+Command                        | Description
+-------------------------------|-----------------------------------------------------------------|
+**\bv**, **\bs**               | Bufexplorer vertical/horizontal split
+**\bd**, **\bu**, **\bu**      | Delete, unload, wipe buffer without closing the window
+**Ctrl-n**                     | Toggle NerdTree
+**Ctrl-p**                     | Toggle Ctrl-p
+**:e %%**                      | Expands files reliative path
+**:!mkdir -p %:h**             | Create directory structure of the current file when nonexistent
+**:w !sudo tee % > /dev/null** | Write file with super user permissions
+**:SudoWrite**                 | Write file with super user permissions
+**:w &#124; %bd &#124; e#**    | Close all buffers except current
 
 ## Windows
 
-Command                               | Description
---------------------------------------|----------------------------------------|
-**&lt;Ctrl-w&gt;s**                   | Split window horizontally
-**&lt;Ctrl-w&gt;v**                   | Split window vertically
-**:only**                             | Close other windows
-**&lt;Ctrl-w&gt;w**                   | Cycle open windows
-**&lt;Ctrl-w&gt;h, j, k, l**          | Move between windows
-**&lt;Ctrl-w&gt;H, J, K, L, R, r, x** | Move windows around
-**&lt;Ctrl-w&gt;c**                   | Close current window
-**&lt;Ctrl-w&gt;o**                   | Close other windows
-**:sp[lit] {file}**                   | Split horizontally, loading file
-**:vsp[lit] {file}**                  | Split vertically, loading file
-**&lt;[N]Ctrl-w&gt;_**                | **Resize** Set active window height to [N] rows
-**&lt;[N]Ctrl-w&gt;&#124;**           | **Resize** Set active window width to [N] columns
+Command                         | Description
+--------------------------------|-------------------------------------------------------------------------------------|
+**Ctrl-ws**                     | Split window horizontally
+**Ctrl-wv**                     | Split window vertically
+**:only**                       | Close other windows
+**Ctrl-w w**                    | Cycle open windows
+**Ctrl-w h, j, k, l**           | Move between windows
+**Ctrl-w H, J, K, L, R, r, x**  | Move windows around
+**Ctrl-w c**                    | Close current window
+**Ctrl-w o**                    | Close other windows
+**:sp[lit] {file}**             | Split horizontally, loading file
+**:vsp[lit] {file}**            | Split vertically, loading file
+**[N]Ctrl-w _**                 | **Resize** Set active window height to [N] rows
+**[N]Ctrl-w &#124;**            | **Resize** Set active window width to [N] columns
+**Ctrl-w [N] +** or **-**       | **Resize** Increase or decrease active window height by one or optionaly **N** rows
+**Ctrl-w [N] &lt;** or **&gt;** | **Resize** Increase or decrease active window width by one or optinaly **N** columns
 
 ## Tabs
 
 Command                       | Description
----------------               | ----------------------------------------
+------------------------------|---------------------------------------------------------------|
 **:tabe[dit] {filename}**     | New tab with filename
-**&lt;Ctrl-w&gt;T**           | Move current window into new tab
+**Ctrl-w T**                  | Move current window into new tab
 **:tabc[lose]**               | Close the current tab page and all of its windows
 **:tabo[nly]**                | Keep the active tab page, closing all others
 **:tabn[ext] {N}**, **{N}gt** | Switch to tab page number {N}. If {N} ommited proceed to next
@@ -115,13 +117,14 @@ Command              | Description
 -------------------- | --------------------
 **ys{count}l]**      | Surround {count} chars with ], }, ), t or whatever
 **ys{object}lf**     | Surround {objext} with function
+**S}**     | Surround selection with } or whatever else
 
 ## Markdown
 
 Command            | Description
 -------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 **:TableFormat**   | Format current into a table. Must have a second line as the second line of the table. That line must have as many pipes (**&#124;**) as table coulmns.
-**&lt;Ctrl&gt;-m** | Preview markdown
+**Ctrl-m** | Preview markdown
 
 ## Searching
 
@@ -134,7 +137,7 @@ Command                                       | Description
 
 ## Misc
 
-Command                                       | Description
---------------------------------------------- | --------------------        |
-**%!mix format -**                            | Format elixir related files
+Command            | Description
+-------------------|-----------------------------|
+**%!mix format -** | Format elixir related files
 
