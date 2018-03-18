@@ -136,9 +136,11 @@ Command                                       | Description
 **\bv**                                       | BufExplorerVerticalSplit
 **\bt**                                       | ToggleBufExplorer
 
-## Misc
+## Notes
 
-Command            | Description
--------------------|-----------------------------|
-**%!mix format -** | Format elixir related files
+**Filename modifiers:**
 
+Command                    | Description
+---------------------------|---------------------------------|
+`:help filename-modifiers` | to see the available modifiers.
+`:echo expand('%:t')`      | to test the modifiers
