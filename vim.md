@@ -136,6 +136,14 @@ Command                                       | Description
 **\bv**                                       | BufExplorerVerticalSplit
 **\bt**                                       | ToggleBufExplorer
 
+## fzf
+
+Command    | Description
+-----------|--------------------|
+**Ctrl-t** | Open in new tab
+**Ctrl-x** | Open in new split
+**Ctrl-v** | Open in new vsplit
+
 ## Notes
 
 **Filename modifiers:**
@@ -144,3 +152,4 @@ Command                    | Description
 ---------------------------|---------------------------------|
 `:help filename-modifiers` | to see the available modifiers.
 `:echo expand('%:t')`      | to test the modifiers
+
