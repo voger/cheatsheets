@@ -130,11 +130,12 @@
 
 ## Surround
 
-| Command          | Description                                        |
-|------------------|----------------------------------------------------|
-| **ys{count}l]**  | Surround {count} chars with ], }, ), t or whatever |
-| **ys{object}lf** | Surround {objext} with function                    |
-| **S}**           | Surround selection with } or whatever else         |
+| Command         | Description                                        |
+|-----------------|----------------------------------------------------|
+| **ys{count}]**  | Surround {count} chars with ], }, ), t or whatever |
+| **ys{object}f** | Surround {objext} with function                    |
+| **S}**          | Surround selection with } or whatever else         |
+
 
 ## Markdown
 
