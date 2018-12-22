@@ -60,6 +60,7 @@
 | **:[range]global/{pattern}/[cmd]**                          | Execute the Ex command [cmd] on all specified lines where the {pattern} matches |
 | **:redir @+ &#124; messages &#124; redir END**              | Copy Ex command output to clipboard. See **:h redir** for files                 |
 | **:redir @aCR**<br /> **:set allCR**<br /> **:redir ENDCR** | Alternate **redir** usage                                                       |
+| **%s/\r//g**                                                | Remove carriage-return (^M) characters when copy pasting from PDF files         |
 
 ## Visual
 
