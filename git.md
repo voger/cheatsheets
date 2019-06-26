@@ -91,4 +91,4 @@ My own git cheatsheet and some guides.
 | **git clean -fd**                                  | Remove untracked **files** and **directories**                     |
 | **git clean -fdx**                                 | Remove **ignored** and **untracked** **files** and **directories** |
 | **git reset -- <file>** && **git checkout <file>** | Restore deleted file                                               |
-| **git reset -- filename**                          | Resvert a file back from HEAD                                      |
+| **git checkout -- filename**                       | Resvert a file back from HEAD                                      |
