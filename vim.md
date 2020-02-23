@@ -92,8 +92,11 @@
 
 | Command                         | Description                                                                          |
 |---------------------------------|--------------------------------------------------------------------------------------|
-| **Ctrl-ws**                     | Split window horizontally                                                            |
-| **Ctrl-wv**                     | Split window vertically                                                              |
+| **Ctrl-w s**                    | Split window horizontally                                                            |
+| **Ctrl-w v**                    | Split window vertically                                                              |
+| **Ctrl-w |**                    | Maximize current vertical window                                                     |
+| **Ctrl-w _**                    | Maximize current horizontal window                                                   |
+| **Ctrl-w =**                    | Restore from maximize window                                                         |
 | **:only**                       | Close other windows                                                                  |
 | **Ctrl-w w**                    | Cycle open windows                                                                   |
 | **Ctrl-w h, j, k, l**           | Move between windows                                                                 |
