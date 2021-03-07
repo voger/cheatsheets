@@ -12,3 +12,9 @@ sudo dd of=/dev/sdc if=manjaro-xfce-18.0.4-x32-stable-minimal-i686.iso bs=4096
 ```
 
 Or use etcher
+
+### Reduce a .png file size
+
+```console
+pngquant screenshot.png
+```
