@@ -276,6 +276,22 @@ Claude has a limited "working memory" per session. When it fills up, Claude star
 
 ---
 
+## Session Management
+
+**Start a new session for each new task** — don't chain unrelated things in one long session. Fresh context = sharper focus.
+
+**Don't delete old sessions.** They are passive archives. Claude Code can search past sessions, so if you can't remember a decision you made weeks ago — which library you picked, why you structured something a certain way, a bug fix you applied — just ask:
+
+> *"Do you remember what we decided about X in a previous session?"*
+
+Claude will search your history and find it. Useful for solo developers who don't document everything.
+
+**The only reason to delete a session:** it contains something sensitive you don't want stored.
+
+Sessions are just text logs — they cost you nothing to keep.
+
+---
+
 ## What NOT to Do
 
 - Don't micromanage steps — give goals, not instructions
