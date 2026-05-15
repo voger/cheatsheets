@@ -45,8 +45,8 @@
 | **&lt;Prefix&gt; x**                               | Kill pane                                          |
 | **&lt;Prefix&gt; o**                               | Cycle through panes                                |
 | **&lt;Prefix&gt; up, down, left, right**           | Move through panes                                 |
-| **&lt;Prefix&gt;-(up, down, left, right)**         | Resize pane                                        |
-| **&lt;Prefix&gt;-(H, J, L, K)**                    | Resize pane. Custom to my setup                    |
+| **&lt;Prefix&gt; \<Meta> + (up, down, left, right)**| Resize pane                                        |
+| **&lt;Prefix&gt; \<Meta> + (H, J, L, K)**           | Resize pane. Custom to my setup                    |
 | **&lt;Prefix&gt; q**                               | Identify panes                                     |
 | **&lt;Prefix&gt; q 1..9**                          | Go to pane with number                             |
 | **&lt;Prefix&gt; z**                               | Zoom in/out pane                                   |
