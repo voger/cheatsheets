@@ -6,6 +6,7 @@
 5. [Command Line](#command-line)
 
 * **&lt;Prefix&gt; :list-keys** or **<Prefix> ?** shows a list with key bindings
+* **\<Meta\>** key usualy refers to the **Alt** key
 * **:list-commands** lists available commands
 * Commands can be run either in `command-mode` or in shell through `tmux command options`
 
