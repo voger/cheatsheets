@@ -38,23 +38,23 @@
 
 ## Panes
 
-| Key                                                | Description                                        |
-|----------------------------------------------------|----------------------------------------------------|
-| **&lt;Prefix&gt; %**                               | Split verticaly                                    |
-| **&lt;Prefix&gt; "**                               | Split horizontaly                                  |
-| **&lt;Prefix&gt; x**                               | Kill pane                                          |
-| **&lt;Prefix&gt; o**                               | Cycle through panes                                |
-| **&lt;Prefix&gt; up, down, left, right**           | Move through panes                                 |
-| **&lt;Prefix&gt; \<Meta> + (up, down, left, right)**| Resize pane                                        |
-| **&lt;Prefix&gt; \<Meta> + (H, J, L, K)**           | Resize pane. Custom to my setup                    |
-| **&lt;Prefix&gt; q**                               | Identify panes                                     |
-| **&lt;Prefix&gt; q 1..9**                          | Go to pane with number                             |
-| **&lt;Prefix&gt; z**                               | Zoom in/out pane                                   |
-| **&lt;Prefix&gt; {**                               | Cycle **left position** of the pane in the layout  |
-| **&lt;Prefix&gt; }**                               | Cycle **right position** of the pane in the layout |
-| **&lt;Prefix&gt; Space**                           | Cycle trough pane layouts                          |
-| **&lt;Prefix&gt; !**                               | Break the pane (make it it's own window)           |
-| **&lt;Prefix&gt; :join-pane -t :&lt;win_num:&gt;** | move pane to another window                        |
+| Key                                                  | Description                                        |
+|------------------------------------------------------|----------------------------------------------------|
+| **&lt;Prefix&gt; %**                                 | Split verticaly                                    |
+| **&lt;Prefix&gt; "**                                 | Split horizontaly                                  |
+| **&lt;Prefix&gt; x**                                 | Kill pane                                          |
+| **&lt;Prefix&gt; o**                                 | Cycle through panes                                |
+| **&lt;Prefix&gt; up, down, left, right**             | Move through panes                                 |
+| **&lt;Prefix&gt; \<Meta> + (up, down, left, right)** | Resize pane                                        |
+| **&lt;Prefix&gt; \<Meta> + (H, J, L, K)**            | Resize pane. Custom to my setup                    |
+| **&lt;Prefix&gt; q**                                 | Identify panes                                     |
+| **&lt;Prefix&gt; q 1..9**                            | Go to pane with number                             |
+| **&lt;Prefix&gt; z**                                 | Zoom in/out pane                                   |
+| **&lt;Prefix&gt; {**                                 | Cycle **left position** of the pane in the layout  |
+| **&lt;Prefix&gt; }**                                 | Cycle **right position** of the pane in the layout |
+| **&lt;Prefix&gt; Space**                             | Cycle trough pane layouts                          |
+| **&lt;Prefix&gt; !**                                 | Break the pane (make it it's own window)           |
+| **&lt;Prefix&gt; :join-pane -t :&lt;win_num:&gt;**   | move pane to another window                        |
 
 
 
