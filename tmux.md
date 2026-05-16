@@ -39,6 +39,7 @@
 | **(copy-mode) &lt;Enter&gt;**    | Yank selection                                |
 | **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                                  |
 | **&lt;Prefix&gt; =**             | Show buffer stack                             |
+| **:delete-buffer -b 2**          | Delete contents of buffer 2                   |
 
 
 ## Panes
