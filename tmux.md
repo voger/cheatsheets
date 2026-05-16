@@ -23,21 +23,22 @@
 | **$tmux-attach -t work** | Attach session work                              |
 
 
-| Key                              | Description                 |
-|----------------------------------|-----------------------------|
-| **q**                            | Escape from various windows |
-| **&lt;Prefix&gt; :**             | Enter command mode          |
-| **&lt;Prefix&gt; [**             | Enter copy mode             |
-| **&lt;Prefix&gt; ?**             | List key bindings           |
-| **(copy-mode) Esc** or **q**     | Exit copy mode              |
-| **(copy-mode) /**                | Search down                 |
-| **(copy-mode) Shift-/**          | Search up                   |
-| **(copy-mode) Space** or **v**   | Begin selection             |
-| **(copy-mode) V**                | Select entire line          |
-| **(copy-mode) Ctrl + v**           | Select rectangle            |
-| **(copy-mode) y**                | Yank selection              |
-| **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                |
-| **&lt;Prefix&gt; =**             | Show buffer stack           |
+| Key                              | Description                                   |
+|----------------------------------|-----------------------------                  |
+| **q**                            | Escape from various windows                   |
+| **&lt;Prefix&gt; :**             | Enter command mode                            |
+| **&lt;Prefix&gt; [**             | Enter copy mode                               |
+| **&lt;Prefix&gt; ?**             | List key bindings                             |
+| **(copy-mode) Esc** or **q**     | Exit copy mode                                |
+| **(copy-mode) /**                | Search down                                   |
+| **(copy-mode) Shift-/**          | Search up                                     |
+| **(copy-mode) Space** or **v**   | Begin selection                               |
+| **(copy-mode) V**                | Select entire line                            |
+| **(copy-mode) Ctrl + v**         | Select rectangle                              |
+| **(copy-mode) y**                | Yank selection and paste to command prompt    |
+| **(copy-mode) &lt;Enter&gt;**    | Yank selection                                |
+| **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                                  |
+| **&lt;Prefix&gt; =**             | Show buffer stack                             |
 
 
 ## Panes
