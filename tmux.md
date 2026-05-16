@@ -34,7 +34,7 @@
 | **(copy-mode) Shift-/**          | Search up                   |
 | **(copy-mode) Space** or **v**   | Begin selection             |
 | **(copy-mode) V**                | Select entire line          |
-| **(copy-mode) Ctrl+v**           | Select rectangle            |
+| **(copy-mode) Ctrl + v**           | Select rectangle            |
 | **(copy-mode) y**                | Yank selection              |
 | **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                |
 | **&lt;Prefix&gt; =**             | Show buffer stack           |
