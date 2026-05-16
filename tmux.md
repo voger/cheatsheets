@@ -6,6 +6,7 @@
 5. [Command Line](#command-line)
 
 * **&lt;Prefix&gt; :list-keys** or **<Prefix> ?** shows a list with key bindings
+* My setup has enabled vi mode copy commands
 * **\<Meta\>** key usualy refers to the **Alt** key
 * **:list-commands** lists available commands
 * Commands can be run either in `command-mode` or in shell through `tmux command options`
@@ -32,6 +33,8 @@
 | **(copy-mode) /**                | Search down                 |
 | **(copy-mode) Shift-/**          | Search up                   |
 | **(copy-mode) Space** or **v**   | Begin selection             |
+| **(copy-mode) V**                | Select entire line          |
+| **(copy-mode) Ctrl+v**           | Select rectangle            |
 | **(copy-mode) y**                | Yank selection              |
 | **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                |
 | **&lt;Prefix&gt; =**             | Show buffer stack           |
