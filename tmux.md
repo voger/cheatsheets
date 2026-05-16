@@ -28,10 +28,10 @@
 | **&lt;Prefix&gt; :**             | Enter command mode          |
 | **&lt;Prefix&gt; [**             | Enter copy mode             |
 | **&lt;Prefix&gt; ?**             | List key bindings           |
-| **(copy-mode) Esc**              | Exit copy mode              |
+| **(copy-mode) Esc** or **q**     | Exit copy mode              |
 | **(copy-mode) /**                | Search down                 |
 | **(copy-mode) Shift-/**          | Search up                   |
-| **(copy-mode) Space**            | Begin selection             |
+| **(copy-mode) Space** or **v**   | Begin selection             |
 | **(copy-mode) y**                | Yank selection              |
 | **(copy-mode) &lt;Prefix&gt; ]** | Paste buffer                |
 | **&lt;Prefix&gt; =**             | Show buffer stack           |
